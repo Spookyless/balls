@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "webpack --mode development --config webpack.config.dev.js",
+    "build": "webpack --mode production --config webpack.config.prod.js",
+    "doc": "typedoc --entryPointStrategy expand ./src"
+  },
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "javascript-obfuscator": "^3.0.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.6",
+    "typedoc": "^0.22.6",
+    "typescript": "^4.4.3",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-obfuscator": "^3.5.0"
+  }
+}
