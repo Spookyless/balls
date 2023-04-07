@@ -82,9 +82,19 @@ body {
     flex-direction: column;
     justify-content: space-between;
     padding: calc(var(--size) / 6);
-    margin-bottom: var(--size);
+    margin-bottom: calc(var(--size) / 2);
     width: calc(var(--size) * 5);
     height: calc(var(--size) * 2);
+}
+
+#footer {
+    margin-top: calc(var(--size) / 4);
+    font-size: calc(var(--size) / 4);
+}
+
+#footer a:is(:link, :hover, :active, :visited) {
+    color: #33cc33;
+    text-decoration: inherit;
 }
 
 #preview #balls {
